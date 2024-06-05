@@ -65,8 +65,12 @@ public sealed class LetterAttachmentsPart : PartBase
         [
             new DataPinDefinition(DataPinValueType.String,
                 "name",
-                "The attachment's name.",
+                "The attachment's names.",
                 "MF"),
+            new DataPinDefinition(DataPinValueType.String,
+                "type",
+                "The attachment's unique types.",
+                "M"),
             new DataPinDefinition(DataPinValueType.Integer,
                "tot-count",
                "The total count of entries.")
