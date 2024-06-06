@@ -30,11 +30,11 @@ Asterisks in models mark required properties. Stars mark new models, specificall
 - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md) role `incipit`.
 - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md) role `explicit`.
 - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md) role `text`.
+
 - ⭐ `QuotedWorksPart` (🔑 `it.vedph.lon.quoted-works`): "canonical" works quoted by the letter. This draws from a hierarchical thesaurus. Sporadic works by third parties which you do not want to list here can be added to the entities in the comment.
   - id (`string`, 📚 `quoted-works-ids`, hierarchical)
   - role (`string`, 📚 `quoted-works-roles`)
   - location (`string`)
   - note (`string`)
-
-- [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md) role `note`.
 - [external bibliography](https://github.com/vedph/cadmus-general/blob/master/docs/ext-bibliography.md) (reference edition may go here too).
+- [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md) role `note`.
