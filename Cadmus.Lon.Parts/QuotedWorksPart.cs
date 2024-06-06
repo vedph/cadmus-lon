@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using Cadmus.Core;
 using Fusi.Tools.Configuration;
@@ -41,10 +42,7 @@ public sealed class QuotedWorksPart : PartBase
 
         if (Works?.Count > 0)
         {
-            foreach (QuotedWork work in Works)
-            {
-                builder.AddValue("id", work.Id);
-            }
+            builder.AddValues("id", Works.Select(w => w.Id));
         }
 
         return builder.Build(this);

@@ -1,0 +1,49 @@
+{
+  "facets": [
+    {
+      "typeId": "it.vedph.lon.letter-info",
+      "name": "info",
+      "description": "Letter information.",
+      "colorKey": "31AB54",
+      "groupKey": "general",
+      "sortKey": "a"
+    },
+    {
+      "typeId": "it.vedph.lon.letter-attachments",
+      "name": "attachments",
+      "description": "Letter attachments.",
+      "colorKey": "31AB54",
+      "groupKey": "general",
+      "sortKey": "b"
+    },
+    {
+      "typeId": "it.vedph.lon.quoted-works",
+      "name": "works",
+      "description": "Quoted works.",
+      "colorKey": "31AB54",
+      "groupKey": "general",
+      "sortKey": "c"
+    }
+  ],
+  "seed": {
+    "options": {
+      "seed": 1,
+      "baseTextPartTypeId": "it.vedph.token-text",
+      "users": [ "zeus" ],
+      "partRoles": [],
+      "fragmentRoles": []
+    },
+    "partSeeders": [
+      {
+        "id": "seed.it.vedph.lon.letter-info"
+      },
+      {
+        "id": "seed.it.vedph.lon.letter-attachments"
+      },
+      {
+        "id": "seed.it.vedph.lon.quoted-works"
+      }
+    ],
+    "fragmentSeeders": []
+  }
+}

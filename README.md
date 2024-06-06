@@ -13,7 +13,7 @@ Asterisks in models mark required properties. Stars mark new models, specificall
 - [chronotopes](https://github.com/vedph/cadmus-general/blob/master/docs/chronotopes.md): 1 or more place-and/or-date pairs.
 - [categories](https://github.com/vedph/cadmus-general/blob/master/docs/categories.md) with role=`letter` (topics).
 
-- ⭐ `LetterInfoPart`: essential information about the letter:
+- ⭐ `LetterInfoPart` (`it.vedph.lon.letter-info`): essential information about the letter:
   - archive (`string`, 📚 `letter-info-archives`): archival source.
   - shelfmark (`string`): archival shelfmark.
   - language\* (`string` default `ita` ISO 639-3; 📚 `letter-info-languages`): the primary (or unique) language of the letter.
@@ -21,7 +21,7 @@ Asterisks in models mark required properties. Stars mark new models, specificall
   - features (`string[]`: flags from 📚 `letter-info-features` for boolean features like presence of stamps, typewritten, etc.).
   - size (`PhysicalSize`).
 
-- ⭐ `LetterAttachmentsPart`: the list of letter's attachments:
+- ⭐ `LetterAttachmentsPart` (`it.vedph.lon.letter-attachments`): the list of letter's attachments:
   - type\* (`string`; 📚 `letter-attachment-types`)
   - name\* (`string`)
   - note (`string`)
@@ -35,7 +35,7 @@ Asterisks in models mark required properties. Stars mark new models, specificall
 - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md) role `explicit`.
 - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md) role `text`.
 
-- ⭐ `QuotedWorksPart`: "canonical" works quoted by the letter. This draws from a hierarchical thesaurus. Sporadic works by third parties which you do not want to list here can be added to the entities in the comment.
+- ⭐ `QuotedWorksPart` (`it.vedph.lon.quoted-works`): "canonical" works quoted by the letter. This draws from a hierarchical thesaurus. Sporadic works by third parties which you do not want to list here can be added to the entities in the comment.
   - id (`string`, 📚 `quoted-works-ids`, hierarchical)
   - role (`string`, 📚 `quoted-works-roles`)
   - location (`string`)
