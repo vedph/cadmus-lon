@@ -19,4 +19,20 @@
 		<AssemblyVersion>0.0.1</AssemblyVersion>
 	</PropertyGroup>
 
+	<ItemGroup>
+		<PackageReference Include="Cadmus.Core" Version="7.0.3" />
+		<PackageReference Include="Cadmus.General.Parts" Version="6.1.0" />
+		<PackageReference Include="Cadmus.Index.Sql" Version="7.0.3" />
+		<PackageReference Include="Cadmus.Mongo" Version="7.0.3" />
+		<PackageReference Include="Cadmus.Philology.Parts" Version="8.2.0" />
+		<PackageReference Include="Cadmus.Seed.General.Parts" Version="6.1.0" />
+		<PackageReference Include="Cadmus.Seed.Philology.Parts" Version="8.2.0" />
+		<PackageReference Include="Fusi.Microsoft.Extensions.Configuration.InMemoryJson" Version="3.0.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Cadmus.Lon.Parts\Cadmus.Lon.Parts.csproj" />
+	  <ProjectReference Include="..\Cadmus.Seed.Lon.Parts\Cadmus.Seed.Lon.Parts.csproj" />
+	</ItemGroup>
+
 </Project>
