@@ -4,7 +4,6 @@ using Cadmus.Core.Config;
 using Cadmus.Core.Storage;
 using Cadmus.Mongo;
 using Cadmus.General.Parts;
-using Cadmus.Philology.Parts;
 using System;
 using Cadmus.Lon.Parts;
 
@@ -36,7 +35,7 @@ public sealed class LonRepositoryProvider : IRepositoryProvider
             // Cadmus.General.Parts
             typeof(NotePart).GetTypeInfo().Assembly,
             // Cadmus.Philology.Parts
-            typeof(ApparatusLayerFragment).GetTypeInfo().Assembly,
+            // typeof(ApparatusLayerFragment).GetTypeInfo().Assembly,
             // Cadmus.Lon.Parts
             typeof(LetterInfoPart).GetTypeInfo().Assembly,
         ]);
