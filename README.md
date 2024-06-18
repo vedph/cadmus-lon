@@ -38,3 +38,9 @@ Asterisks in models mark required properties. Stars mark new models, specificall
   - note (`string`)
 - [external bibliography](https://github.com/vedph/cadmus-general/blob/master/docs/ext-bibliography.md) (reference edition may go here too).
 - [note](https://github.com/vedph/cadmus-general/blob/master/docs/note.md) role `note`.
+
+## History
+
+### 0.0.3
+
+- 2024-06-18: updated seeders with real thesauri.

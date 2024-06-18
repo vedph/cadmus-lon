@@ -23,8 +23,7 @@ public sealed class QuotedWorksPartSeeder : PartSeederBase
         {
             works.Add(new Faker<QuotedWork>()
                 .RuleFor(p => p.Id, f => f.Database.Random.AlphaNumeric(5))
-                // TODO role from thesaurus
-                .RuleFor(p => p.Role, f => f.PickRandom("-", "alpha"))
+                .RuleFor(p => p.Role, f => f.PickRandom("-", "reference"))
                 .RuleFor(p => p.Location, f =>
                     f.Random.Number(1, 100).ToString(CultureInfo.InvariantCulture))
                 .RuleFor(p => p.Note, f => f.Random.Bool(0.3f)
