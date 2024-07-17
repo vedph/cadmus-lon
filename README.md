@@ -41,6 +41,10 @@ Asterisks in models mark required properties. Stars mark new models, specificall
 
 ## History
 
+### 0.0.5
+
+- 2024-07-17: updated packages.
+
 ### 0.0.4
 
 - 2024-06-25: no decimals in size seeder.
