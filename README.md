@@ -41,6 +41,9 @@ Asterisks in models mark required properties. Stars mark new models, specificall
 
 ## History
 
+### 0.0.6
+
+- 2024-09-28: updated packages.
 - 2024-08-30: updated test packages.
 
 ### 0.0.5
