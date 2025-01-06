@@ -41,6 +41,10 @@ Asterisks in models mark required properties. Stars mark new models, specificall
 
 ## History
 
+### 1.0.1
+
+- 2025-01-06: updated packages.
+
 ### 1.0.0
 
 - 2024-11-23: ⚠️ upgraded to .NET 9.
