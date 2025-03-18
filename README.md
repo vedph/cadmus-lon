@@ -41,6 +41,10 @@ Asterisks in models mark required properties. Stars mark new models, specificall
 
 ## History
 
+### 2.0.0
+
+- 2025-03-18: updated packages (bumped Cadmus core to v8).
+
 ### 1.0.2
 
 - 2025-01-29: updated packages.
